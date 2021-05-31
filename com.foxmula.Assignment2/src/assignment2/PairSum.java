@@ -5,7 +5,7 @@ public class PairSum {
 		
 		System.out.println("enter the sum to check");
 		Scanner scan=new Scanner(System.in);
-		int n=scan.nextInt();
+		int k=scan.nextInt();
 		
 	ArrayList al= new ArrayList();
 	  
@@ -22,7 +22,7 @@ public class PairSum {
 			int a=(int)al.get(i);
 
 			int b=(int)al.get(j);
-			if(a+b==n) {
+			if(a+b==k) {
 				
 				System.out.println("["+a+","+b+"]");
 			}
